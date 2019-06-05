@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked
+style: white
 
 plugins:
   - jekyll-octicons
@@ -9,15 +9,14 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -26,33 +25,48 @@ projects:
     archived: false
     forks: true
     projects:
+      - MyConfigFiles
     # - repo-name
 
-# social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # keybase: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
+social_media:
+  twitter: jasyuiop
+  telegram: jasyuiop
+# behance: your_username
+# dribbble: your_username
+# facebook: your_username
+# hackerrank: your_username
+# instagram: your_username
+# keybase: your_username
+# linkedin: your_username
+# mastodon: your_username
+# medium: your_username
+# stackoverflow: your_user_id
+# unsplash: your_username
+# vk: your_username
+# website: http://your_website_url
+# youtube: your_username
 
 topics:
+  - name: JavaScript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+
+  - name: Vue.js
+    web_url: https://github.com/topics/vue
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/vue/vue.png
+
+  - name: Node.js
+    web_url: https://github.com/topics/nodejs
+    image_url: https://raw.githubusercontent.com/github/explore/fd96fceccf8c42c99cbe29cf0f8dcc4736fcb85a/topics/nodejs/nodejs.png
+
+  - name: C#
+    web_url: https://github.com/topics/csharp
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/464px-C_Sharp_wordmark.svg.png
+
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: HTML
+    web_url: https://github.com/topics/html
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
