@@ -26,10 +26,12 @@ projects:
     forks: true
     projects:
       - MyConfigFiles
+      - Detaysoft_myProjects
+      - Pazarlama_Urun_Sitesi
     # - repo-name
 
 social_media:
-# twitter: your_username
+twitter: jasyuiop
 # telegram: your_username
 # behance: your_username
 # dribbble: your_username
