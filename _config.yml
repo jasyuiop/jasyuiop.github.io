@@ -1,5 +1,5 @@
 layout: stacked
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
@@ -28,6 +28,7 @@ projects:
       - MyConfigFiles
       - Detaysoft_myProjects
       - Pazarlama_Urun_Sitesi
+      - resume.github.io
     # - repo-name
 
 social_media:
