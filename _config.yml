@@ -1,5 +1,5 @@
 layout: stacked
-style: white
+style: black
 
 plugins:
   - jekyll-octicons
@@ -22,7 +22,7 @@ projects:
   #   - stars
   limit: 9
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
       - MyConfigFiles
@@ -31,7 +31,7 @@ projects:
     # - repo-name
 
 social_media:
-twitter: jasyuiop
+# twitter:
 # telegram: your_username
 # behance: your_username
 # dribbble: your_username
@@ -49,10 +49,6 @@ twitter: jasyuiop
 # youtube: your_username
 
 topics:
-  - name: Go
-    web_url: https://github.com/topics/go
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png
-
   - name: C#
     web_url: https://github.com/topics/csharp
     image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/464px-C_Sharp_wordmark.svg.png
@@ -60,10 +56,6 @@ topics:
   - name: JavaScript
     web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
-
-  - name: Vue.js
-    web_url: https://github.com/topics/vuejs
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png
 
   - name: HTML
     web_url: https://github.com/topics/html
